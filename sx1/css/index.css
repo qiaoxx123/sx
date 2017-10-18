@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 0; }
+
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.box {
+  overflow: auto; }
+
+.header {
+  background: #1983d1;
+  width: 100%;
+  height: 1.35rem; }
+  .header .header-img {
+    width: 100%;
+    height: 0.4rem; }
+  .header .header-div {
+    width: 100%;
+    height: 0.95rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .header .header-div span {
+      color: #a7ddff;
+      font-size: 0.3rem;
+      display: inline-block;
+      margin-left: 0.32rem; }
+    .header .header-div .header-div-div {
+      background: #1572b7;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      justify-content: center;
+      width: 4.66rem;
+      height: 0.63rem; }
+      .header .header-div .header-div-div .img {
+        width: 0.32rem;
+        height: 0.32rem; }
+      .header .header-div .header-div-div .img1 {
+        width: 0.23rem;
+        height: 0.32rem; }
+      .header .header-div .header-div-div input {
+        background: #1572b7;
+        width: 3.57rem;
+        height: 0.32rem;
+        outline: none;
+        border: none;
+        font-size: 0.2rem;
+        padding-left: 0.11rem;
+        color: #a7ddff; }
+    .header .header-div .header-img1 {
+      width: 0.6rem;
+      height: 0.52rem;
+      margin-right: 0.17rem; }
+
+.swiper {
+  width: 100%;
+  height: 2.45rem; }
+  .swiper img {
+    width: 100%;
+    height: 100%; }
+
+.content {
+  width: 100%;
+  height: 3.22rem;
+  border-bottom: 0.2rem solid #ececec; }
+  .content .content1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 3.22rem; }
+  .content figure {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 20%; }
+    .content figure img {
+      width: 0.84rem;
+      height: 0.84rem; }
+    .content figure figcaption {
+      width: 100%;
+      height: 0.23rem;
+      text-align: center;
+      font-size: 0.23rem; }
+
+.tu {
+  width: 100%;
+  height: 5.36rem; }
+  .tu h2 {
+    margin: 0.3rem;
+    font-size: 0.25rem; }
+  .tu .tu-img {
+    width: 6.58rem;
+    height: 3.5rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap; }
+    .tu .tu-img img {
+      width: 2.09rem;
+      height: 1.66rem; }
+    .tu .tu-img figure {
+      height: 2.37rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column; }
+      .tu .tu-img figure img {
+        width: 2.08rem;
+        height: 1.7rem; }
+      .tu .tu-img figure .img {
+        width: 3.2rem;
+        height: 1.7rem; }
+      .tu .tu-img figure figcaption {
+        width: 100%;
+        height: 0.23rem; }
+        .tu .tu-img figure figcaption p {
+          font-size: 0.23rem;
+          padding-left: 0.15rem; }
+          .tu .tu-img figure figcaption p span {
+            font-size: 0.2rem;
+            color: red; }
+  .tu .tu-wen {
+    width: 2.35rem;
+    height: 0.56rem;
+    border: 0.01rem solid black;
+    margin: 0.3rem auto;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.56rem; }
+
+.tu1 {
+  width: 100%;
+  height: 6.7rem; }
+  .tu1 .tu-img1 {
+    width: 6.57rem;
+    height: 4.66rem; }
+
+.tu2 {
+  width: 100%;
+  height: 2.28rem; }
+  .tu2 .tu-img2 {
+    width: 6.57rem;
+    height: 1.62rem; }
+    .tu2 .tu-img2 figure {
+      height: 1.62rem; }
+
+footer {
+  width: 100%;
+  height: 1.08rem;
+  display: flex; }
+  footer figure {
+    width: 25%;
+    height: 1.08rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around; }
+    footer figure img {
+      width: 0.48rem;
+      height: 0.54rem; }
+    footer figure .img {
+      width: 0.65rem;
+      height: 0.54rem; }
+    footer figure figcaption {
+      width: 100%;
+      text-align: center; }
+      footer figure figcaption p {
+        font-size: 0.16rem; }
+
+/*# sourceMappingURL=index.css.map */
