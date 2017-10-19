@@ -1,0 +1,240 @@
+@charset "utf-8";
+        *{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                text-decoration: none;
+            }
+            body{
+                width: 100%;
+                height: 100%;
+            }
+            
+        .div1{
+               width: 100%;
+               height: 1rem;
+               display: flex;
+               margin: auto;
+               padding-top: .15rem;
+               border-top:0.01rem #F5F5F5 solid ;
+               li{
+                   width: 25%;
+                   height: 80%;
+                   border-right:0.01rem #F5F5F5 solid ;
+                   line-height: .8rem;
+                   text-align: center;
+                   font-size: .36rem;
+                   color: #000;
+                  span{
+                      width: .25rem;
+                      height: .15rem;
+                      font-size: .25rem;
+                      margin-left: .1rem;
+                      color: #999;
+                      line-height: .8rem;
+                  }
+               }
+           } 
+           .div2 li{
+                    font-size: .24rem;
+                    padding: .2rem 0;
+                    border-bottom: .01rem solid #F5F5F5;
+                    margin: 0 .3rem;
+                     display: flex;
+                a{
+                    text-decoration: none;
+                    }
+           }
+           .div2-div1{
+               width: 1.6rem;
+               margin-right:0.22rem ;
+               img{
+                   width: 100%;
+               }
+           }
+           .div2-p2{
+               font-size:.26rem ;
+               color: #333;
+           }
+           .div2-span3{
+               margin-right: .4rem;
+               margin-left: .2rem;
+
+               color: #999;
+           }
+           .spann{
+               color: #FBB902;
+           }
+           .div2-p1{
+                   font-size: .36rem;
+                    display: flex;
+                    justify-content: space-between;
+                     align-items: center;
+                  
+           }
+           .div2-p3{
+               font-size: .28rem;
+           }
+           .div2-span1{
+                margin-left: .22rem;
+                color: #FFFFFF;
+               border-radius:.01rem;
+                background: mediumseagreen;
+               font-size: .24rem;
+           }
+
+           .div3{
+               width: 4.8rem;
+               display: flex;
+               flex-wrap: wrap;
+               font-size:.36rem ;
+               margin-left: 1.35rem;
+               justify-content: space-between;
+               text-align: center;
+               margin-top:.24rem ;
+               margin-bottom: .60rem;
+               
+                     li{
+                         width: 1rem;
+                         height: 1.5rem;
+                          display: flex;
+                          flex-wrap: wrap;
+                          text-align: center;
+                         span{
+                             width: 1rem;
+                             height: 1rem;
+                             border: .03rem salmon solid;
+                             display: inline-block;
+                             font-size: .58rem;
+                              border-radius:.50rem ;
+                         }
+                         
+                     }
+           }
+           .qw{
+               width: 100%;
+               text-align: center;
+                font-size:.18rem ;
+                color: #0086B3;
+                line-height: .5rem;
+                
+           }
+                       .top{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .top img{
+                width: 26%;
+                margin: .16rem 0;
+                margin-left: .18rem;
+            }
+            .t1{
+                display: flex;
+                align-items: center;
+                color: #999999;
+            }
+            .t1 div{
+//              width: .24rem;
+                text-align: center;
+                font-size: .22rem;
+                img{
+                    width: 100%;
+                }
+            }
+            .top-div{
+                font-size: .36rem;
+            }
+.footer{
+                text-align: center;
+                margin: .5rem 0;
+                   font-size: .28rem;
+            }
+            .cca{
+                width: 100%;
+                font-size: .28rem;
+                display: flex;
+                align-items: center;
+                li{
+                  width: 25%;
+                  text-align: center;  
+                }
+                
+            }
+            .zhi{
+                width: 100%;
+                padding-left: .20rem;
+                font-size: .28rem;
+                border-bottom: .20rem solid #eee;
+                text-indent:.5rem ;
+            }
+            .v1{
+                width: 100%;
+                
+                img{
+                    width: 100%;
+                }
+            }
+          
+.div4{
+    width: 100%;
+    padding-left: .20rem;
+    font-size: .28rem;
+    border-bottom: .20rem solid #eee; 
+    span{
+        font-size: .32rem;
+        color: #666;
+    }
+}
+.div5{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    li{
+        width: 45%;
+        margin: .12rem;
+        display: flex;
+         flex-wrap: wrap;
+          position: relative;
+          text-align: center;
+        img{
+             width: 3.5rem;
+             height: 2.35rem;
+        }
+            h3{
+            font-size: .36rem;
+            color: #000;
+        }
+        P{
+          font-size: .20rem;
+            color: #999;  
+        }
+       
+    }
+}
+.div21{
+        font-size:.28rem;
+        position: absolute;
+        left: 1.5rem;top: 1.87rem;
+}
+.div22{
+        font-size:.28rem;
+        position: absolute;
+        left: 2.8rem;top: 1.87rem;
+}
+ .div6{
+    width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     padding: .32rem;
+     justify-content: space-between;
+     h4{
+         font-size: .36rem;
+         margin: 0 .6rem;
+     }
+     P{
+         font-size: .24rem;
+     }
+}

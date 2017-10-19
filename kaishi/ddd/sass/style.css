@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: .3rem;
+  list-style: none;
+  text-decoration: none; }
+
+body {
+  width: 100%;
+  height: 100%; }
+
+.div1 {
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  margin: auto;
+  padding-top: .15rem; }
+  .div1 li {
+    width: 25%;
+    height: 80%;
+    border-right: 0.5px #999 solid;
+    line-height: .8rem;
+    text-align: center;
+    font-size: .36rem;
+    color: #000; }
+    .div1 li span {
+      font-size: .25rem;
+      color: #999; }
+
+.div2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+  .div2 li {
+    width: 45%;
+    margin: .12rem;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center; }
+    .div2 li img {
+      width: 3.5rem;
+      height: 2.35rem; }
+    .div2 li h3 {
+      font-size: 36px;
+      color: #000; }
+    .div2 li P {
+      font-size: 20px;
+      color: #999; }
+
+.div21 {
+  font-size: .28rem;
+  position: absolute;
+  left: 235px;
+  top: 220px; }
+
+.div22 {
+  font-size: .28rem;
+  position: absolute;
+  left: 336px;
+  top: 220px; }
+
+.footer {
+  text-align: center;
+  margin: 0.5rem 0; }
+
+.cca {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .cca li {
+    width: 25%;
+    text-align: center; }
+
+.zhi {
+  width: 100%;
+  padding: 20px;
+  border-bottom: 20px solid #eee; }
+
+.v1 {
+  width: 100%; }
+  .v1 img {
+    width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

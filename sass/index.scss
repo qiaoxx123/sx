@@ -1,0 +1,190 @@
+@charset "utf-8";
+*{margin: 0;padding: 0;font-size: 0;}
+@mixin tanld{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+html,body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    overflow: auto;
+}
+.header{
+    background: #1983d1;
+    width: 100%;
+    height: 1.35rem;
+    .header-img{
+        width: 100%;
+        height: 0.4rem;
+    }
+    .header-div{
+        width: 100%;
+        height: 0.95rem;
+        @include tanld;
+        span{
+            color: #a7ddff;
+            font-size: 0.3rem;
+            display: inline-block;
+            margin-left: 0.32rem;
+        }
+        .header-div-div{
+            background: #1572b7;
+            @include tanld;
+            justify-content: center;
+            width: 4.66rem;
+            height: 0.63rem;
+            .img{width: 0.32rem;height: 0.32rem;}
+            .img1{width: 0.23rem;height: 0.32rem;}
+            input{
+                background: #1572b7;
+                width: 3.57rem;
+                height: 0.32rem;
+                outline: none;
+                border: none;
+                font-size: 0.2rem;
+                padding-left: 0.11rem;
+                color: #a7ddff;
+                }
+        }
+        .header-img1{
+            width: 0.6rem;
+            height: 0.52rem;
+            margin-right: 0.17rem;
+            }
+    }
+}
+.swiper{
+    width: 100%;
+    height: 2.45rem;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.content{
+    width: 100%;
+    height: 3.22rem;
+    border-bottom: 0.2rem solid #ececec;
+    .content1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 3.22rem;
+   }
+    
+    figure{
+        @include tanld;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 20%;
+        img{
+            width: 0.84rem;
+            height: 0.84rem;
+            }
+            figcaption{
+                width: 100%;
+                height: 0.23rem;
+                text-align: center;
+                font-size: 0.23rem;
+            }
+    }
+}
+.tu{
+    width: 100%;
+    height: 5.36rem;
+   
+    h2{
+        margin: 0.3rem;
+        font-size: 0.25rem;
+    }
+    .tu-img{
+        width: 6.58rem;
+        height: 3.5rem;
+        margin: 0 auto;
+         @include tanld;
+         display: flex;
+        flex-wrap: wrap;
+        img{
+            width: 2.09rem;
+            height: 1.66rem;
+        }
+//      ************************
+        figure{
+            height: 2.37rem;
+            @include tanld;
+            justify-content: space-around;
+            flex-direction: column;
+            img{width: 2.08rem;height: 1.7rem;}
+            .img{
+                width: 3.2rem;
+                height: 1.7rem;
+                }
+            
+                figcaption{
+                    width: 100%;
+                    height: 0.23rem;
+                    
+                    p{
+                        font-size: 0.23rem;
+                        padding-left: 0.15rem;
+                        span{
+                            font-size: 0.2rem;
+                            color: red;
+                            }
+                    }
+                }
+        }
+    }
+    .tu-wen{
+        width: 2.35rem;
+        height: 0.56rem;
+        border: 0.01rem solid black;
+        margin: 0.3rem auto;
+        font-size: 0.3rem;
+        text-align: center;
+        line-height: 0.56rem;
+        
+    }
+}
+.tu1{
+    width: 100%;
+    height: 6.7rem;
+    .tu-img1{
+        width: 6.57rem;
+        height: 4.66rem;
+    }
+}
+.tu2{
+    width: 100%;
+    height: 2.28rem;
+    .tu-img2{
+        width: 6.57rem;
+        height: 1.62rem;
+        figure{height: 1.62rem;}
+    }
+}
+footer{
+    width: 100%;
+    height: 1.08rem;
+    display: flex;
+    figure{
+        width: 25%;
+        height: 1.08rem;
+        @include tanld;
+        flex-direction: column;
+        justify-content: space-around;
+        img{width: 0.48rem;height:0.54rem;};
+        .img{
+            width: 0.65rem;height:0.54rem;
+        }
+        figcaption{
+            width: 100%;
+            text-align: center;
+            p{font-size: 0.16rem;}
+        }
+    }
+}

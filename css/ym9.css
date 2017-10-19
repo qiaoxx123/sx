@@ -1,0 +1,315 @@
+.sy-head {
+  border-bottom: 0.01rem solid #ECECEC;
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .sy-head .sy-head-a {
+    width: 2.16rem;
+    height: 0.7rem;
+    margin-left: 0.18rem;
+    clear: both; }
+    .sy-head .sy-head-a .a-img {
+      width: 100%;
+      height: 100%;
+      float: left; }
+  .sy-head .sy-wenzi {
+    width: 20%;
+    text-align: center;
+    font-size: 0.33rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  .sy-head .sy-head-p {
+    width: 1.24rem;
+    height: 0.7rem;
+    margin-right: 0.14rem;
+    display: flex;
+    justify-content: space-between; }
+    .sy-head .sy-head-p .p-a {
+      width: 0.45rem;
+      height: 0.7rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-around; }
+      .sy-head .sy-head-p .p-a .span1 {
+        width: 0.4rem;
+        height: 0.42rem;
+        font-size: 0.26rem; }
+      .sy-head .sy-head-p .p-a .span2 {
+        width: 0.45rem;
+        height: 0.3rem;
+        overflow: hidden;
+        font-size: 0.2rem; }
+    .sy-head .sy-head-p .p-a1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      width: 0.45rem;
+      height: 0.7rem; }
+      .sy-head .sy-head-p .p-a1 .span1 {
+        width: 0.4rem;
+        height: 0.42rem;
+        font-size: 0.26rem; }
+      .sy-head .sy-head-p .p-a1 .span2 {
+        width: 0.45rem;
+        height: 0.3rem;
+        overflow: hidden;
+        font-size: 0.2rem; }
+
+.jieshao {
+  margin-bottom: 0.22rem;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .jieshao .wen1 {
+    margin-top: 0.36rem;
+    margin-left: 0.2rem;
+    width: 4.6rem;
+    height: 0.44rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.28rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+    .jieshao .wen1 .wen3-btn {
+      display: inline-block;
+      width: 1.15rem;
+      height: 0.3rem;
+      background: #38C893;
+      color: white;
+      font-size: 0.25rem;
+      text-align: center;
+      line-height: 0.3rem;
+      border-radius: 0.03rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap; }
+  .jieshao .wen2 {
+    margin: .3rem .2rem;
+    width: 100%;
+    height: 0.4rem;
+    display: flex; }
+    .jieshao .wen2 span {
+      display: inline-block; }
+    .jieshao .wen2 .wen2-span {
+      width: 0.8rem;
+      height: 0.4rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 0.24rem;
+      color: #333; }
+      .jieshao .wen2 .wen2-span .wen2-span2 {
+        margin-left: 0.1rem;
+        font-size: 0.28rem;
+        color: #999; }
+    .jieshao .wen2 .wen2-l {
+      width: 1.18rem; }
+    .jieshao .wen2 .wen2-c {
+      margin-left: 0.62rem;
+      position: relative;
+      width: 1.75rem; }
+      .jieshao .wen2 .wen2-c sup {
+        position: absolute;
+        font-size: 0.1rem;
+        top: 0;
+        right: .12rem; }
+    .jieshao .wen2 .wen2-r {
+      margin-left: 0.62rem;
+      width: 1.75rem; }
+  .jieshao .wen3 {
+    margin-left: 0.2rem;
+    margin-bottom: .3rem;
+    width: 6.8rem;
+    height: 0.3rem;
+    display: flex;
+    align-items: center; }
+    .jieshao .wen3 .wen3-l {
+      display: inline-block;
+      width: 1.04rem;
+      height: 0.3rem;
+      font-size: 0.2rem;
+      text-align: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap; }
+    .jieshao .wen3 .wen3-r {
+      width: 5.63rem;
+      height: 0.3rem;
+      margin-left: 0.15rem;
+      font-size: 0.2rem;
+      color: #999999; }
+  .jieshao .fy {
+    margin: 0 auto;
+    width: 6.96rem;
+    height: 0.82rem;
+    display: flex; }
+    .jieshao .fy div {
+      width: 50%;
+      height: 100%;
+      text-align: center;
+      line-height: 0.82rem;
+      font-size: 0.26rem;
+      border: 0.01rem solid #ECECEC;
+      color: #38C893; }
+    .jieshao .fy .shang-tu {
+      font-size: 0.26rem;
+      color: #38C893;
+      margin-right: 0.2rem; }
+    .jieshao .fy .shang {
+      color: #1a9df3; }
+      .jieshao .fy .shang .co {
+        color: #1a9df3; }
+
+.content {
+  width: 100%;
+  background: #f4f4f4; }
+  .content .content-top {
+    width: 5.4rem;
+    height: 0.38rem; }
+    .content .content-top span {
+      display: inline-block;
+      font-size: 0.26rem;
+      width: 1.2rem;
+      height: 0.38rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap; }
+    .content .content-top .top-wen2 {
+      margin: 0 .7rem 0 0;
+      color: #38C893; }
+    .content .content-top .top-wen4 {
+      width: 1rem; }
+  .content .content-tuwen {
+    border-bottom: 0.2rem solid #f4f4f4; }
+    .content .content-tuwen .content-shang, .content .content-tuwen .content-zhong, .content .content-tuwen .content-xia {
+      padding-top: 0.36rem;
+      margin-left: 0.4rem;
+      border-left: 0.01rem solid #dcdcdc;
+      position: relative; }
+      .content .content-tuwen .content-shang .yuan, .content .content-tuwen .content-shang .yuan1, .content .content-tuwen .content-zhong .yuan, .content .content-tuwen .content-zhong .yuan1, .content .content-tuwen .content-xia .yuan, .content .content-tuwen .content-xia .yuan1 {
+        width: .45rem;
+        height: .45rem;
+        background: #38C893;
+        border-radius: 50%;
+        position: absolute;
+        left: -0.225rem;
+        top: 0.9rem; }
+      .content .content-tuwen .content-shang .fy, .content .content-tuwen .content-zhong .fy, .content .content-tuwen .content-xia .fy {
+        overflow: hidden;
+        margin: 0.36rem 0;
+        width: 6.96rem;
+        height: 0.82rem;
+        display: flex; }
+        .content .content-tuwen .content-shang .fy div, .content .content-tuwen .content-zhong .fy div, .content .content-tuwen .content-xia .fy div {
+          height: 100%;
+          text-align: center;
+          line-height: 0.82rem;
+          font-size: 0.28rem; }
+        .content .content-tuwen .content-shang .fy .xian, .content .content-tuwen .content-zhong .fy .xian, .content .content-tuwen .content-xia .fy .xian {
+          width: .66rem;
+          height: 0;
+          border-top: 0.01rem solid #38C893;
+          margin-top: 0.41rem; }
+        .content .content-tuwen .content-shang .fy .shang, .content .content-tuwen .content-zhong .fy .shang, .content .content-tuwen .content-xia .fy .shang {
+          background: #eaeaea;
+          width: 2.1rem; }
+        .content .content-tuwen .content-shang .fy .xia, .content .content-tuwen .content-zhong .fy .xia, .content .content-tuwen .content-xia .fy .xia {
+          color: white;
+          width: 0.96rem;
+          background: #fdb704;
+          margin-left: 0.1rem; }
+        .content .content-tuwen .content-shang .fy .ys, .content .content-tuwen .content-zhong .fy .ys, .content .content-tuwen .content-xia .fy .ys {
+          color: white;
+          width: 1.57rem;
+          background: #38C893; }
+      .content .content-tuwen .content-shang .content-wen, .content .content-tuwen .content-zhong .content-wen, .content .content-tuwen .content-xia .content-wen {
+        font-size: .28rem;
+        margin: .3rem .68rem;
+        width: 2.5rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      .content .content-tuwen .content-shang .content-tu, .content .content-tuwen .content-zhong .content-tu, .content .content-tuwen .content-xia .content-tu {
+        margin-left: 0.68rem;
+        width: 6.3rem;
+        height: 5.52rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+        .content .content-tuwen .content-shang .content-tu img, .content .content-tuwen .content-zhong .content-tu img, .content .content-tuwen .content-xia .content-tu img {
+          width: 2.07rem;
+          height: 2.74rem; }
+    .content .content-tuwen .content-shang {
+      padding: 0; }
+      .content .content-tuwen .content-shang .yuan {
+        top: 0.225rem; }
+      .content .content-tuwen .content-shang .yuan1 {
+        top: -0.225rem;
+        background: #F4F4F4; }
+    .content .content-tuwen .content-zhong .content-tu {
+      height: 2.74rem; }
+    .content .content-tuwen .content-xia .content-tu {
+      width: 6.4rem;
+      height: 4.73rem; }
+      .content .content-tuwen .content-xia .content-tu img {
+        width: 100%;
+        height: 100%; }
+
+.wwen {
+  border-bottom: 0.2rem solid #f4f4f4;
+  width: 7.5rem;
+  height: 2.45rem;
+  display: flex;
+  align-items: center; }
+  .wwen .wen {
+    line-height: 0.43rem;
+    margin: 0 auto;
+    text-indent: 2em;
+    margin: 0 auto;
+    display: flex;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    width: 6.9rem;
+    height: 1.75rem;
+    font-size: 0.25rem;
+    color: #333; }
+
+footer {
+  width: 100%;
+  height: 1.96rem; }
+  footer .wen {
+    margin-top: 0.38rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 0.9rem; }
+    footer .wen .span1 {
+      color: #39C893;
+      font-size: 0.38rem; }
+    footer .wen span {
+      font-size: 0.28rem;
+      color: #333333; }
+    footer .wen .wenzi {
+      display: flex;
+      width: 100%;
+      height: 0.3rem; }
+      footer .wen .wenzi p {
+        width: 25%;
+        font-size: 0.3rem;
+        text-align: center; }
+  footer img {
+    width: 100%; }
+
+/*# sourceMappingURL=ym9.css.map */

@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+.top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.top img {
+  width: 26%;
+  margin: 16px 0;
+  margin-left: 18px; }
+
+.t1 {
+  display: flex;
+  align-items: center;
+  color: #999999; }
+
+.t1 div {
+  width: 40px;
+  text-align: center; }
+
+.lia {
+  width: 90%;
+  margin: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background: #EEEEEE; }
+
+.shi {
+  text-align: center; }
+  .shi h4 {
+    margin: 1.5rem 0; }
+  .shi p {
+    color: #ccc; }
+
+.lei {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+  .lei li {
+    font-size: 1rem;
+    margin: 0.4rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    padding: 0.2rem; }
+
+.main {
+  width: 90%;
+  text-indent: 2rem;
+  margin: 1rem auto; }
+
+.tu {
+  width: 60%;
+  margin: auto; }
+  .tu img {
+    width: 100%; }
+
+.biao {
+  width: 100%;
+  margin: 1rem 0;
+  display: flex;
+  border-top: 20px solid #eee; }
+
+.biao h4 {
+  margin: 0 6px; }
+
+.biao p {
+  color: #999; }
+
+.ysu {
+  width: 5px;
+  height: 24px;
+  margin-left: 10px;
+  background: #3AC893; }
+
+h4 {
+  width: 60%;
+  height: 40px;
+  line-height: 40px; }
+  h4 span {
+    color: orange; }
+
+.a1 {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  .a1 img {
+    width: 30%;
+    margin: 20px; }
+  .a1 span {
+    color: gray; }
+
+.huan {
+  width: 90%;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  margin: 2rem auto;
+  color: #3AC893;
+  border: 1px solid #3AC893;
+  border-radius: 0.5rem; }
+
+.footer {
+  text-align: center; }
+
+.cca {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .cca li {
+    width: 25%;
+    text-align: center; }
+
+.zhi {
+  width: 100%;
+  padding: 20px;
+  border-bottom: 20px solid #eee; }
+
+.v1 {
+  width: 100%; }
+  .v1 img {
+    width: 100%; }
+
+.ju {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .ju li {
+    text-align: center; }
+
+/*# sourceMappingURL=new_file.css.map */
