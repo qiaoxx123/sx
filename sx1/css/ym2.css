@@ -1,0 +1,228 @@
+.header {
+  width: 100%;
+  height: 2.2rem;
+  border-bottom: 0.2rem solid #ECECEC; }
+  .header .header-top {
+    overflow: hidden;
+    width: 100%;
+    height: 1.2rem;
+    background: #39c893; }
+    .header .header-top .top-nr {
+      margin-top: 0.04rem;
+      margin-left: 0.4rem;
+      width: 7.02rem;
+      height: 1.13rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .header .header-top .top-nr .top-img {
+        width: 1.14rem;
+        height: 1.14rem; }
+      .header .header-top .top-nr .top-wen {
+        width: 5.6rem;
+        height: 1.13rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .header .header-top .top-nr .top-wen .wen1 {
+          position: relative;
+          width: 5.6rem;
+          height: 0.48rem;
+          font-size: 0.37rem; }
+          .header .header-top .top-nr .top-wen .wen1 .cha {
+            position: absolute;
+            font-size: 0.28rem;
+            right: 0;
+            color: #202020; }
+        .header .header-top .top-nr .top-wen .wen2 {
+          padding-left: 0.15rem;
+          padding-right: 0.15rem;
+          width: 4.52rem;
+          height: 0.4rem;
+          background: #2bb280;
+          border-radius: 0.4rem;
+          font-size: 0.27rem;
+          color: white; }
+          .header .header-top .top-nr .top-wen .wen2 span {
+            font-size: 0.23rem;
+            color: #bdc843; }
+  .header .header-bottom {
+    width: 100%;
+    height: 1rem; }
+    .header .header-bottom .bottom-sousuo {
+      margin: 0.02rem auto;
+      width: 7.12rem;
+      height: 0.7rem;
+      display: flex;
+      border: 0.02rem solid #38c893; }
+      .header .header-bottom .bottom-sousuo .k {
+        border: none;
+        outline: none;
+        padding-left: .13rem;
+        width: 5.62rem;
+        height: 100%;
+        font-size: 0.28rem;
+        color: #aaa; }
+      .header .header-bottom .bottom-sousuo .ss {
+        width: 1.38rem;
+        height: 100%;
+        text-align: center;
+        line-height: .7rem;
+        font-size: 0.28rem;
+        color: white;
+        background: #39C893; }
+
+.content {
+  width: 100%; }
+  .content .content-top {
+    width: 100%;
+    height: 4.15rem;
+    border-bottom: 0.2rem solid #ECECEC; }
+    .content .content-top .top-header {
+      display: flex;
+      align-items: center;
+      width: 7rem;
+      height: 0.75rem;
+      border-bottom: 0.01rem solid #ECECEC; }
+      .content .content-top .top-header p {
+        width: 33%;
+        height: 0.75rem;
+        line-height: 0.75rem;
+        text-align: center;
+        font-size: 0.28rem;
+        color: #000; }
+    .content .content-top .top-content {
+      width: 100%;
+      height: 1.62rem;
+      display: flex;
+      margin-top: 0.36rem; }
+      .content .content-top .top-content figure {
+        text-align: center;
+        width: 25%;
+        height: 100%; }
+        .content .content-top .top-content figure img {
+          width: 1.05rem;
+          height: 1.05rem; }
+        .content .content-top .top-content figure figcaption {
+          margin-top: 0.2rem;
+          width: 100%;
+          height: 0.32rem;
+          font-size: 0.26rem;
+          overflow: hidden;
+          text-align: center; }
+    .content .content-top .content-huan {
+      text-align: center;
+      line-height: 0.47rem;
+      margin: 0 auto;
+      margin-top: 0.35rem;
+      width: 7rem;
+      height: 0.47rem;
+      border: 0.01rem solid #ECECEC;
+      font-size: 0.31rem;
+      color: #39C893; }
+      .content .content-top .content-huan .huan {
+        font-size: 0.31rem;
+        color: #39C893; }
+  .content .content-lb {
+    width: 100%; }
+    .content .content-lb .slb {
+      width: 7rem;
+      height: 2.4rem;
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+      border-bottom: 0.01rem solid #ECECEC; }
+      .content .content-lb .slb .lb {
+        width: 7rem;
+        height: 1.45rem;
+        display: flex; }
+        .content .content-lb .slb .lb .img {
+          width: 1.9rem;
+          height: 1.45rem; }
+        .content .content-lb .slb .lb .wen {
+          margin-left: 0.26rem;
+          width: 4.9rem;
+          height: 1.38rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between; }
+          .content .content-lb .slb .lb .wen .wen1 {
+            width: 100%;
+            height: 0.94rem;
+            overflow: hidden;
+            font-size: 0.32rem; }
+          .content .content-lb .slb .lb .wen .wen2 {
+            width: 3.8rem;
+            height: 0.4rem;
+            overflow: hidden; }
+            .content .content-lb .slb .lb .wen .wen2 span {
+              font-size: 0.3rem;
+              color: #9a9a9a; }
+            .content .content-lb .slb .lb .wen .wen2 .span1 {
+              margin-right: 0.12rem; }
+            .content .content-lb .slb .lb .wen .wen2 .span3 {
+              margin-left: 0.75rem;
+              margin-right: 0.12rem; }
+  .content .content-huan {
+    text-align: center;
+    line-height: 0.47rem;
+    margin: 0 auto;
+    margin-bottom: 0.4rem;
+    width: 7rem;
+    height: 0.47rem;
+    border: 0.01rem solid #ECECEC;
+    font-size: 0.31rem;
+    color: #39C893; }
+    .content .content-huan .huan {
+      font-size: 0.31rem;
+      color: #39C893; }
+
+.wwen {
+  border-bottom: 0.2rem solid #f4f4f4;
+  border-top: 0.2rem solid #f4f4f4;
+  width: 7.5rem;
+  height: 2.45rem;
+  display: flex;
+  align-items: center; }
+  .wwen .wen {
+    line-height: 0.43rem;
+    margin: 0 auto;
+    text-indent: 2em;
+    margin: 0 auto;
+    display: flex;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    width: 6.9rem;
+    height: 1.75rem;
+    font-size: 0.25rem;
+    color: #333; }
+
+footer {
+  width: 100%;
+  height: 1.96rem; }
+  footer .wen {
+    margin-top: 0.38rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 0.9rem; }
+    footer .wen .span1 {
+      color: #39C893;
+      font-size: 0.38rem; }
+    footer .wen span {
+      font-size: 0.28rem;
+      color: #333333; }
+    footer .wen .wenzi {
+      display: flex;
+      width: 100%;
+      height: 0.3rem; }
+      footer .wen .wenzi p {
+        width: 25%;
+        font-size: 0.3rem;
+        text-align: center; }
+  footer img {
+    width: 100%; }
+
+/*# sourceMappingURL=ym2.css.map */
