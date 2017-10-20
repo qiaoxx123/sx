@@ -135,6 +135,8 @@
     }
 }
 .content{
+    border-bottom: .2rem solid #F4F4F4;
+    padding-bottom: 0.36rem;
     width: 100%;
     .content-top{
         width: 100%;
@@ -164,7 +166,80 @@
             }
             a:hover{border-bottom: 0.05rem solid #38C893;color: #38C893;}
     }
-    .content-img{width: 100%;height: 17.22rem;}
+    
+    //房内样式
+    .fang-yang{
+        width: 100%;
+        height: .55rem;
+        overflow: hidden;
+        .yang-wwen{
+            width: 9rem !important;
+            a{
+                margin-left: 0.12rem;
+                float: left;
+                height: .52rem;
+                border: .02rem solid #39C893;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                border-radius: .52rem;
+                .yang-wen{
+                    font-size: .28rem;
+                    height: .52rem;
+                    line-height: .52rem;
+                    text-align: center;
+                }
+            }
+            .yang-d1{width: 1.15rem;margin-left:0.18rem ;}
+            .yang-d2{width: 1.18rem;}
+            .yang-d3{width: 1.15rem;}
+            .yang-d4{width: 2.58rem;}
+            .yang-d5{width: 1.15rem;}
+        }
+    }
+    .table{
+        margin: 0 auto;
+        margin-top: 0.2rem;
+        width: 7.15rem;
+        height: 5rem;
+        border:0.01rem solid grey;
+        td{
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: wrap;
+            color: grey;
+        }
+        .td1{
+            
+            vertical-align: middle;
+            font-size: .2rem;
+            border-bottom:0.01rem solid grey ;
+            border-right:0.01rem solid grey ;
+            width: 1.84rem;
+            padding-left: .16rem;
+            height: .6rem;
+        }
+        .td2{
+           vertical-align: middle;
+            font-size: .2rem;
+            border-bottom:0.01rem solid grey ;
+            border-right:0.01rem solid grey ;
+            width: 1.44rem;
+            padding-left: .16rem;
+            height: .6rem;
+        }
+        .td3{
+            vertical-align: middle;
+            font-size: .2rem;
+            border-bottom:0.01rem solid grey ;
+            border-right:0.01rem solid grey ;
+            width: 3.44rem;
+            padding-left: .16rem;
+            height: .6rem;
+        }
+        .td1-5,.td2-5{height: 1.32rem;}
+        
+    }
 }
 .wwen {
     border-bottom: 0.2rem solid #f4f4f4;

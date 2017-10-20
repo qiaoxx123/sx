@@ -1,0 +1,174 @@
+.sy-head {
+  border-bottom: 0.01rem solid #ECECEC;
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .sy-head .sy-head-a {
+    width: 2.16rem;
+    height: 0.7rem;
+    margin-left: 0.18rem;
+    clear: both; }
+    .sy-head .sy-head-a .a-img {
+      width: 100%;
+      height: 100%;
+      float: left; }
+  .sy-head .sy-wenzi {
+    width: 20%;
+    text-align: center;
+    font-size: 0.33rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  .sy-head .sy-head-p {
+    width: 1.24rem;
+    height: 0.7rem;
+    margin-right: 0.14rem;
+    display: flex;
+    justify-content: space-between; }
+    .sy-head .sy-head-p .p-a {
+      width: 0.45rem;
+      height: 0.7rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-around; }
+      .sy-head .sy-head-p .p-a .span1 {
+        width: 0.4rem;
+        height: 0.42rem;
+        font-size: 0.26rem; }
+      .sy-head .sy-head-p .p-a .span2 {
+        width: 0.45rem;
+        height: 0.3rem;
+        overflow: hidden;
+        font-size: 0.2rem; }
+    .sy-head .sy-head-p .p-a1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      width: 0.45rem;
+      height: 0.7rem; }
+      .sy-head .sy-head-p .p-a1 .span1 {
+        width: 0.4rem;
+        height: 0.42rem;
+        font-size: 0.26rem; }
+      .sy-head .sy-head-p .p-a1 .span2 {
+        width: 0.45rem;
+        height: 0.3rem;
+        overflow: hidden;
+        font-size: 0.2rem; }
+
+.content {
+  width: 100%; }
+  .content .content-img {
+    width: 100%;
+    height: 3.02rem; }
+  .content .top {
+    width: 100%; }
+    .content .top .wen {
+      margin: 0 auto;
+      text-indent: 2em;
+      width: 7.2rem;
+      height: 3.8rem;
+      font-size: .28rem;
+      color: #333;
+      padding: .42rem 0 0 0;
+      line-height: 0.47rem; }
+  .content .xia {
+    background: #f4f4f4;
+    width: 100%; }
+    .content .xia .xiaimg {
+      width: 100%;
+      height: 3.73rem;
+      margin-top: .1rem; }
+  .content .top-wen {
+    margin: .36rem auto;
+    margin-bottom: .46rem;
+    text-align: center;
+    line-height: .5rem;
+    width: 4rem;
+    height: .5rem;
+    font-size: .36rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  .content .top-fang {
+    position: relative;
+    width: 100%;
+    height: 0rem;
+    border-bottom: 0.01rem solid #D7D7D7; }
+    .content .top-fang .kuai {
+      background: #f4f4f4;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      top: -0.1rem;
+      width: 1.25rem;
+      height: .4rem;
+      margin-left: 3rem; }
+      .content .top-fang .kuai .span {
+        margin-left: .1rem;
+        display: inline-block;
+        width: .15rem;
+        height: .15rem;
+        transform: rotate(45deg);
+        border: .03rem solid #39C893; }
+
+footer {
+  width: 100%;
+  height: 1.96rem; }
+  footer .wen {
+    margin-top: 0.38rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 0.9rem; }
+    footer .wen .span1 {
+      color: #39C893;
+      font-size: 0.38rem; }
+    footer .wen span {
+      font-size: 0.28rem;
+      color: #333333; }
+    footer .wen .wenzi {
+      display: flex;
+      width: 100%;
+      height: 0.3rem; }
+      footer .wen .wenzi p {
+        width: 25%;
+        font-size: 0.3rem;
+        text-align: center; }
+  footer .lc-footer {
+    width: 7.5rem;
+    height: 1.45rem;
+    font-size: 0; }
+    footer .lc-footer .lc-ter-a {
+      width: 7.18rem;
+      height: .96rem;
+      border-top: 1px #999 solid;
+      margin-left: 0.16rem;
+      margin-top: .1rem; }
+      footer .lc-footer .lc-ter-a .lc-ter-p {
+        width: 5rem;
+        height: 0.3rem;
+        font-size: 0.25rem;
+        color: #999999;
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-left: 1.4rem;
+        margin-top: 0.3rem; }
+    footer .lc-footer .ter-c {
+      width: 100%;
+      height: 0.4rem;
+      background: #282828; }
+      footer .lc-footer .ter-c img {
+        width: 100%;
+        height: 0.4rem; }
+
+/*# sourceMappingURL=ym17.css.map */

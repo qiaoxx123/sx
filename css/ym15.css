@@ -1,3 +1,19 @@
+.gun-tu {
+  position: fixed;
+  right: .18rem;
+  bottom: .5rem;
+  width: .94rem;
+  height: .94rem;
+  border-radius: 50%;
+  background: #1b9bf7;
+  box-shadow: 6px 0 6px 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .gun-tu .img1 {
+    font-size: .46rem;
+    color: white; }
+
 .sy-head {
   border-bottom: 0.01rem solid #ECECEC;
   width: 100%;
@@ -61,95 +77,61 @@
         overflow: hidden;
         font-size: 0.2rem; }
 
-.lieb {
-  border-bottom: .2rem solid #f4f4f4;
-  width: 100%;
-  height: 3.63rem; }
-  .lieb figure {
-    margin-left: .17rem;
-    display: flex;
-    width: 7.2rem;
-    height: 2rem; }
-    .lieb figure img {
-      width: 2.85rem;
-      height: 2rem; }
-    .lieb figure figcaption {
-      margin-left: 0.25rem;
-      width: 4.15rem;
-      height: 2rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between; }
-      .lieb figure figcaption span {
-        display: inline-block; }
-      .lieb figure figcaption .wen2-span {
-        line-height: 0.4rem;
-        width: 4.15rem;
-        height: 0.4rem;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        font-size: 0.24rem;
-        color: #b8b8b8; }
-        .lieb figure figcaption .wen2-span .wen2-span2 {
-          margin-left: 0.1rem;
-          font-size: 0.24rem;
-          color: red; }
-        .lieb figure figcaption .wen2-span .wen2-span3 {
-          margin-left: 0.1rem;
-          font-size: 0.24rem;
-          color: #000000; }
-      .lieb figure figcaption .wen2-l {
-        font-size: 0.33rem;
-        color: #000000; }
-      .lieb figure figcaption .wen2-c {
-        position: relative;
-        width: 2.25rem; }
-        .lieb figure figcaption .wen2-c sup {
-          position: absolute;
-          font-size: 0.1rem;
-          top: 0;
-          right: .12rem; }
-  .lieb .lie-wen {
-    padding: .3rem .17rem;
-    width: 7.2rem;
-    height: .92rem;
-    font-size: 0.24rem;
-    line-height: 0.5rem; }
-
 .content {
+  border-bottom: .2rem solid #f4f4f4;
   width: 100%; }
-  .content .content-top {
-    width: 100%;
-    height: 1rem;
-    list-style: none;
-    display: flex;
-    align-items: center; }
-    .content .content-top a {
-      overflow: hidden;
-      text-decoration: none;
-      width: 25%;
-      height: 100%; }
-      .content .content-top a .top-wen {
+  .content .content-wen {
+    border-bottom: 0.01rem solid grey;
+    margin: 0 auto;
+    width: 7.15rem;
+    height: 2.5rem; }
+    .content .content-wen .top {
+      margin: .36rem 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between; }
+      .content .content-wen .top div {
+        width: 1.7rem;
+        height: 0.63rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
-        margin-top: 0.2rem;
-        border-left: 0.01rem solid #f4f4f4;
-        width: 100%;
-        height: 0.6rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: .28rem; }
-      .content .content-top a .span1 {
-        border: none; }
-    .content .content-top a:hover {
-      border-bottom: 0.05rem solid #38C893;
-      color: #38C893; }
-  .content .content-img {
-    width: 100%;
-    height: 17.22rem; }
+        font-size: 0.28rem;
+        color: #999; }
+        .content .content-wen .top div .span1 {
+          display: inline-block;
+          width: .6rem;
+          height: .6rem;
+          background: #999999;
+          font-size: 0.5rem;
+          text-align: center;
+          line-height: .6rem;
+          color: white;
+          border-radius: 50%; }
+        .content .content-wen .top div .span {
+          color: #39C893; }
+    .content .content-wen .bottom {
+      padding-left: 0rem;
+      font-size: .35rem;
+      color: #000; }
+  .content .fy {
+    margin: 0.36rem auto;
+    width: 6.96rem;
+    height: 0.82rem;
+    display: flex; }
+    .content .fy div {
+      width: 2.32rem;
+      height: 100%;
+      text-align: center;
+      line-height: 0.82rem;
+      font-size: 0.26rem; }
+    .content .fy .shang, .content .fy .xia {
+      background: #38C893; }
+    .content .fy .ys {
+      background: white; }
 
 .wwen {
   border-bottom: 0.2rem solid #f4f4f4;
@@ -198,4 +180,4 @@ footer {
   footer img {
     width: 100%; }
 
-/*# sourceMappingURL=ym11.css.map */
+/*# sourceMappingURL=ym15.css.map */

@@ -72,99 +72,55 @@
         }
     }
 }
-.lieb{
-    border-bottom: .2rem solid #f4f4f4;
-    width: 100%;
-    height: 3.63rem;
-    figure{
-        margin-left: .17rem;
-        display: flex;
-        width: 7.2rem;
-        height: 2rem;
-        img{width: 2.85rem;height: 2rem;};
-        figcaption{
-            margin-left: 0.25rem;
-            width: 4.15rem;
-            height: 2rem;
-         display: flex;
-         flex-direction: column;
-        justify-content: space-between;
-        span {
-            display: inline-block;
-        }
-        .wen2-span {
-            line-height: 0.4rem;
-            width: 4.15rem;
-            height: 0.4rem;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-            font-size: 0.24rem;
-            color: #b8b8b8;
-            .wen2-span2 {
-                margin-left: 0.1rem;
-                font-size: 0.24rem;
-                color: red;
-            }
-            .wen2-span3 {
-                margin-left: 0.1rem;
-                font-size: 0.24rem;
-                color: #000000;
-            }
-        }
-        .wen2-l{font-size: 0.33rem;color: #000000;}
-        .wen2-c {
-            position: relative;
-            width: 2.25rem;
-            sup {
-                position: absolute;
-                font-size: 0.1rem;
-                top: 0;
-                right: .12rem;
-            }
-        }
-        
-        }
-    }
-    .lie-wen{
-        padding: .3rem .17rem;
-        width: 7.2rem;
-        height: .92rem;
-        font-size: 0.24rem;
-        line-height: 0.5rem;
-    }
-}
 .content{
     width: 100%;
-    .content-top{
-        width: 100%;
-        height: 1rem;
-        list-style: none;
+    .content-img{width: 100%;height: 4.2rem;}
+    .lieb{
         display: flex;
-        align-items: center;
-        a{
-            overflow: hidden;
-            text-decoration: none;
-            width: 25%;
-            height: 100%;
-            .top-wen{
-                overflow: hidden;
-                text-overflow:ellipsis ;
-                white-space: nowrap;
-                margin-top: 0.2rem;
-                border-left: 0.01rem solid #f4f4f4;
-                width: 100%;
-                height: 0.6rem;
+        width: 100%;
+        height: 2.87rem;
+         div{
+                width: 50%;
+                height: 100%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                font-size: .28rem;
+                flex-direction: column;
+                img{width: 1.15rem;height: 1.15rem;}
+                span{
+                        display: inline-block;
+                        height: 0.7rem;
+                        font-size: 0.27rem;
+                        width: 3.23rem;
+                        overflow: hidden;
+                        white-space: wrap;
+                        text-overflow: ellipsis;
+                        margin-top: 0.32rem;
+                    }
+                    .tu-wen{text-align: center;}
             }
-            .span1{border: none;}
-            }
-            a:hover{border-bottom: 0.05rem solid #38C893;color: #38C893;}
     }
-    .content-img{width: 100%;height: 17.22rem;}
+    .div1{
+        width: 100%;
+        height: 3.87rem;
+        background: #F4F4F4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{width: 2.68rem;height: 2.66rem;}
+        span{
+                display: inline-block;
+                height: 0.35rem;
+                font-size: 0.27rem;
+                width: 3.6rem;
+                overflow: hidden;
+                white-space: wrap;
+                text-overflow: ellipsis;
+                margin-top: 0.32rem;
+            }
+    }
+    
 }
 .wwen {
     border-bottom: 0.2rem solid #f4f4f4;
@@ -219,7 +175,38 @@ footer {
             }
         }
     }
-    img {
-        width: 100%;
+    .lc-footer{
+    width: 7.5rem;
+    height: 1.45rem;
+    font-size: 0;
+    .lc-ter-a{
+        width: 7.18rem;
+        height: .96rem;
+        border-top: 1px #999 solid;
+        margin-left: 0.16rem;
+        margin-top: .1rem;
+        .lc-ter-p{
+            width: 5rem;
+            height: 0.3rem;
+            font-size: 0.25rem;
+            color: #999999;
+            max-width:100%;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+            margin-left: 1.4rem;
+            margin-top: 0.3rem;
+        }
     }
+    .ter-c{
+        width: 100%;
+        height: 0.4rem;
+        background: #282828;
+        img{
+            width: 100%;
+            height: 0.4rem;
+            
+        }
+    }
+}
 }
